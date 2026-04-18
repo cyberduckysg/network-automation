@@ -1,0 +1,29 @@
+{
+    "devices": [
+        {
+            "device_type": "cisco_ios",
+            "host": "192.162.99.100",
+            "username": "admin",
+            "password": "cisco123"
+        },
+        {
+            "device_type": "cisco_ios",
+            "host": "192.162.99.101",
+            "username": "admin",
+            "password": "cisco123"
+        },
+        {
+            "device_type": "cisco_nxos",
+            "host": "192.162.99.102",
+            "username": "admin",
+            "password": "cisco123"
+        },
+        {
+            "device_type": "arista_eos",
+            "host": "192.162.99.103",
+            "username": "admin",
+            "password": "cisco123"
+        }
+    ]
+}
+

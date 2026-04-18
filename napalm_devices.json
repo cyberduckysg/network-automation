@@ -1,0 +1,32 @@
+{
+    "devices": [
+        {
+            "driver": "ios",
+            "host": "192.162.99.100",
+            "username": "admin",
+            "password": "cisco123"
+        },
+         {
+            "driver": "ios",
+            "host": "192.162.99.101",
+            "username": "admin",
+            "password": "cisco123"
+        },
+         {
+            "driver": "nxos_ssh",
+            "host": "192.162.99.102",
+            "username": "admin",
+            "password": "cisco123"
+        },
+        {
+            "driver": "eos",
+            "host": "192.162.99.103",
+            "username": "admin",
+            "password": "cisco123"
+        }
+    ]
+    
+    
+
+}
+
