@@ -1,0 +1,27 @@
+CiscoIOSv-1:
+    hostname: 192.162.99.100
+    username: admin
+    password: cisco123
+    groups:
+        - cisco_ios
+
+CiscoIOSv-2:
+    hostname: 192.162.99.101
+    username: admin
+    password: cisco123
+    groups:
+        - cisco_ios
+
+CiscoNX-OSv-1:
+    hostname: 192.162.99.102
+    username: admin
+    password: cisco123
+    groups:
+        - cisco_nxos
+
+AristaEOS-1:
+    hostname: 192.162.99.103
+    username: admin
+    password: cisco123
+    groups:
+        - arista_eos

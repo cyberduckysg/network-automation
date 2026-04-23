@@ -10,7 +10,7 @@ result = nr.run(
 )
 time = datetime.datetime.now()
 t = time.strftime("%Y-%m-%d_%H-%M-%S")
-#print(result["CiscoIOSv-1"][0].result)
+print(result["CiscoIOSv-1"][0].result)
 for hostname, task_result in result.items():
     with open(f"audit_results_{t}.txt", "a") as file:
         

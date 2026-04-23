@@ -1,0 +1,11 @@
+Value HOSTNAME (\S+)
+Value UPTIME (.+)
+Value VERSION ([^,]+)
+Value SERIAL (\S+)
+Value MODEL (\S+)
+
+Start
+  ^${HOSTNAME}\s+uptime is\s+${UPTIME}
+  ^Cisco IOS Software.*Version ${VERSION},
+  ^Cisco\s+${MODEL}\s+\(revision.*
+  ^Processor board ID ${SERIAL} -> Record
