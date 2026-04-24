@@ -4,6 +4,10 @@ CiscoIOSv-1:
     password: cisco123
     groups:
         - cisco_ios
+    data:
+        link_interface: GigabitEthernet0/3
+        link_ip: 10.10.10.1
+        link_mask: 255.255.255.252
 
 CiscoIOSv-2:
     hostname: 192.162.99.101
@@ -11,6 +15,10 @@ CiscoIOSv-2:
     password: cisco123
     groups:
         - cisco_ios
+    data:
+        link_interface: GigabitEthernet0/3
+        link_ip: 10.10.10.2
+        link_mask: 255.255.255.252
 
 CiscoNX-OSv-1:
     hostname: 192.162.99.102
@@ -18,6 +26,7 @@ CiscoNX-OSv-1:
     password: cisco123
     groups:
         - cisco_nxos
+    
 
 AristaEOS-1:
     hostname: 192.162.99.103
