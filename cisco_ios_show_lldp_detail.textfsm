@@ -1,0 +1,11 @@
+Value LOCAL_INTF (\S+)
+Value PORT_DESC (.+)
+Value SYS_NAME (\S+)
+Value MGMT_IP (\S+)
+
+Start
+  ^Local Intf:\s+${LOCAL_INTF}
+  ^Port Description:\s+${PORT_DESC}
+  ^System Name:\s+${SYS_NAME}
+  ^Management Addresses:
+  ^\s+IP:\s+${MGMT_IP} -> Record
